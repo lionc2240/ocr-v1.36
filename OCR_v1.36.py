@@ -1396,7 +1396,7 @@ class CropSelector:
 
 # =============================================================================================
 root = tk.Tk()
-root.title("SEGG OCR Tool v1.36_Optimizer")
+root.title("OCR-v1.36")
 window_width = 622
 window_height = 578
 # Lấy kích thước màn hình
