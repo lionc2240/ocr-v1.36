@@ -1,0 +1,10 @@
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+httplib2
+watchdog
+oauth2client
+pathlib
+Pillow
+opencv-python
+psutil
