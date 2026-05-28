@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình và Token nhạy cảm (QUAN TRỌNG)
+config.ini
+credentials.json
+token.json
+client_secret*.json
+.env
+
+# Thư mục dữ liệu tạm do tool tạo ra
+raw_texts/
+texts/
+RGBImages/
+TXTImages/
+*_out/
+output\ srt/
+
+# Log files
+*.log
+
+# Hệ điều hành
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
