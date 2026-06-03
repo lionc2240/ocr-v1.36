@@ -1,16 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Cấu hình và Token nhạy cảm (QUAN TRỌNG)
-config.ini
+# Sensitive data
+settings.json
 credentials.json
 token.json
 client_secret*.json
 .env
 
-# Thư mục dữ liệu tạm do tool tạo ra
+# Workspace artifacts (Temporary)
+*.mp4
+*.txt
+*.srt
+*.log
+*.zip
+*.deb
+*.xz
+
+# Data folders
 raw_texts/
 texts/
 RGBImages/
@@ -18,14 +27,17 @@ TXTImages/
 *_out/
 output\ srt/
 
-# Log files
-*.log
-
-# Hệ điều hành
-Thumbs.db
-desktop.ini
-.DS_Store
-
-# IDEs
+# IDE files, artifacts
 .vscode/
 .idea/
+.antigravitycli/
+.gemini/
+.qwen/
+.claude/
+
+# AI context
+GEMINI.md
+CLAUDE.md
+AGENTS.md
+RULES.md
+SKILLS.md
